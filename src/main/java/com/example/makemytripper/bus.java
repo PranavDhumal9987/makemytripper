@@ -8,5 +8,5 @@ import org.springframework.web.bind.annotation.RestController;
 public class bus {
     @GetMapping("/bus")
     public String getData() {return  "Please book your bus from Indigo testing dta" +
-            " kindly book ticket for New Delhi to anywhere at 10% discounted price1" ; }
+            " kindly book ticket for New Delhi to anywhere at 10% discounted price1 for bus" ; }
 }
