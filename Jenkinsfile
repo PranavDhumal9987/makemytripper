@@ -1,8 +1,10 @@
 pipeline {
 
-    agent any
+    agent
+    {
+      label 'jenkinsslave-teamA'
+    }
 
-    tools{
          maven 'maven 3.9.16'
          }
 
